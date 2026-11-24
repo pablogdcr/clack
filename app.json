@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Clack",
+    "slug": "clack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0c0b0a",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.pablo.gdcr.clack"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "react-native-audio-api",
+        {
+          "iosBackgroundMode": false,
+          "androidPermissions": [],
+          "androidForegroundService": false
+        }
+      ],
+      "./plugins/withSceneLifecycle"
+    ]
+  }
+}

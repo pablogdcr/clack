@@ -1,0 +1,30 @@
+{
+  "name": "clack",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@expo-google-fonts/courier-prime": "^0.4.1",
+    "@shopify/react-native-skia": "2.6.2",
+    "expo": "~57.0.1",
+    "expo-font": "~57.0.0",
+    "expo-haptics": "~57.0.0",
+    "expo-status-bar": "~57.0.0",
+    "react": "19.2.3",
+    "react-native": "0.86.0",
+    "react-native-audio-api": "^1.0.1",
+    "react-native-gesture-handler": "~2.32.0",
+    "react-native-reanimated": "4.5.0",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-worklets": "0.10.1"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start --port 8087",
+    "ios": "expo run:ios --port 8087",
+    "assets": "/Applications/Blender.app/Contents/MacOS/Blender -b --python tools/blender/export_app_assets.py -- renders/work assets/machine"
+  },
+  "private": true
+}
